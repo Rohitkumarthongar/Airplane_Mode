@@ -148,23 +148,23 @@ app_license = "mit"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"airline_mode.tasks.all"
-# 	],
-# 	"daily": [
-# 		"airline_mode.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"airline_mode.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"airline_mode.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"airline_mode.tasks.monthly"
-# 	],
-# }
+scheduler_events = {
+	"all": [
+		"airline_mode.tasks.all"
+	],
+	"daily": [
+		"airline_mode.tasks.daily"
+	],
+	"hourly": [
+		"airline_mode.tasks.hourly"
+	],
+	"weekly": [
+		"airline_mode.tasks.weekly"
+	],
+	"monthly": [
+		"airline_mode.tasks.monthly"
+	],
+}
 
 # Testing
 # -------
